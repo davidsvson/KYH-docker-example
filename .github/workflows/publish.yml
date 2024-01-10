@@ -24,6 +24,6 @@ jobs:
           dotnet build
 
       - name: Build docker image
-        run: docker build -t davidsvson/KYH-docker-example .
+        run: docker build -t davidsvson/kyh-docker-example .
 
 
