@@ -21,8 +21,8 @@ jobs:
       - name: Restore and build
         run: |
           dotnet restore
-          dotnot build
-          
+          dotnet build
+
       - name: Build docker image
         run: docker build -t davidsvson/KYH-docker-example
 
